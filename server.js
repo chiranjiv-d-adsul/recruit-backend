@@ -8,7 +8,8 @@ const app = express();
 
 // Configuration for CORS
 const corsConfig = {
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173",
+  origin:"https://willowy-maamoul-554c69.netlify.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
 };
